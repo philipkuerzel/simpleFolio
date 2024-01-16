@@ -1,0 +1,10 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+h1 {
+    font-size: 2rem;
+}
