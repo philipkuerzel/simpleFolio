@@ -6,14 +6,14 @@ const Skills = () => {
         <section className="skills">
             <h2>Skills</h2>
             <div className="skillsGrid">
-                <div>HTML</div>
-                <div>CSS</div>
-                <div>JavaScript</div>
-                <div>React</div>
-                <div>SASS</div>
-                <div>Tallwind CSS</div>
-                <div>Git</div>
-                <div>UX/UI</div>
+                <div className="skill">HTML</div>
+                <div className="skill">CSS</div>
+                <div className="skill">JavaScript</div>
+                <div className="skill">React</div>
+                <div className="skill">SASS</div>
+                <div className="skill">Tallwind CSS</div>
+                <div className="skill">Git</div>
+                <div className="skill">UX/UI</div>
             </div>
         </section>
         </>

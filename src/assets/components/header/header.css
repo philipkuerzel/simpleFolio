@@ -1,6 +1,12 @@
-header {
+header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    margin: 0.25em;
+    padding: 1em;
+}
+
+.logo {
+    font-size: 1.5rem;
 }
 

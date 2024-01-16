@@ -1,12 +1,17 @@
+import Button from "../buttons/Button";
 import "./footer.css"
 
 const Footer = () => {
     return (  
         <>
-        <footer>
-            <h2>Contact</h2>
-            <button>email me</button>
-        </footer>
+        
+            <div id="contact">
+                <h2>Contact</h2>
+                <Button
+                title='email me'/>
+            </div>
+            <p id="created">Created by John Smith</p>
+        
         </>
     );
 }

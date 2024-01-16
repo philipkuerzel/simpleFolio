@@ -1,5 +1,15 @@
 .skillsGrid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, auto);
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 10vh;
+    gap: 1rem;
+    margin-bottom: 10vh;
+}
+
+.skill {
+    background: #2A304C;
+    color: #8F9FD8;
+    
 }

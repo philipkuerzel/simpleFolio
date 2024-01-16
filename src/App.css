@@ -1,19 +1,26 @@
+@font-face {
+  font-family: 'poppins';
+  src: url(./assets/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'poppins-bold';
+  src: url(./assets/font/Poppins/Poppins-Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #bdbddd;
+}
+
+html {
+  background-color: #23283e;
 }
 
 .app {
-  height: 100vh;
+  text-align: center;
+  font-family: 'poppins';
 }
 
-main {
-  align-items: center;
-}
-
-button {
-  background: none;
-  padding: 0.5rem;
-  border-radius: 5px;
-}
